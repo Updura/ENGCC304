@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int score1, score2, score3;
+    int average;
+    scanf("%d", &score1);
+    scanf("%d", &score2);
+    scanf("%d", &score3);
+    average = (score1 + score2 + score3) / 3;
+    printf("Average = %d", average);
+
+    return 0;
+}

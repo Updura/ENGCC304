@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char os[50];
+    char editor[50];
+    scanf("%s", os);
+    scanf("%s", editor);
+    printf("OS: %s\n", os);
+    printf("Editor: %s\n", editor);
+    printf("Ready to code!");
+
+    return 0;
+}
